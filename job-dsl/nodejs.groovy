@@ -16,6 +16,6 @@ job ('job example for npm')
     }
 
     steps {
-        shell("nodejs app.js")
+        shell("node app.js")
     }
 }
