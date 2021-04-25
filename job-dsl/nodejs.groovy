@@ -11,7 +11,7 @@ job ('job example for npm')
         scm('H/5 * * * *')
     }
 
-    mappers {
+    wrappers {
         nodejs('nodejs')
     }
 
